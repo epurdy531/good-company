@@ -602,6 +602,10 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.img-static {
+  max-width: 100%;
+  height: 100%;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -10947,7 +10951,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url('smoke-relax.jpeg');
+  background-image: url('chair-relax.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10990,6 +10994,7 @@ header.masthead .masthead-heading {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
+  padding: 1rem;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -11000,7 +11005,6 @@ header.masthead .masthead-heading {
   display: flex;
   position: absolute;
   width: 100%;
-  height: 100%;
   background: rgba(255, 200, 0, 0.9);
   align-items: center;
   justify-content: center;
@@ -11018,6 +11022,7 @@ header.masthead .masthead-heading {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
+  height: 12rem;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -11061,8 +11066,8 @@ header.masthead .masthead-heading {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  width: 3rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
   cursor: pointer;
   background-color: transparent;
 }

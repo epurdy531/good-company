@@ -1,0 +1,28 @@
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Reviews</h2>
+                <h3 class="section-subheading text-muted">Mental health recovery is possible, and it starts with seeking help.</h3>
+            </div>
+            <div class="row">
+                <% Review.all.each_with_index do |review, index|%>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading" style="text-align:left;"><%=review.title%></div>
+                            <div class="portfolio-caption-subheading text-muted" style="text-align:right;">-<%=review.author%></div>
+                        </div>
+                        <a class="portfolio-link" data-bs-toggle="modal" href=<%="#portfolioModal#{index+1}"%>>
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">..Read More</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <% end %>
+            </div>
+        </div>
+    </section>
+
+    
